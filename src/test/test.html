@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .img-block {
+            width: 300px;
+            height: 200px;
+            background-color: #ffaaaa;
+            color: #333;
+            font-size: 22px;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        li {
+            padding: 0;
+            margin: 10px;
+            list-style-type: none;
+        }
+
+
+        @media only screen and (max-device-width:768px){
+            li:first-child {
+                border: 1px solid blue;
+                order: 1;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div>
+    <div class="css-live-wrap">
+        <ul>
+            <li>
+                <div class="img-block">create</div>
+            </li>
+            <li>
+                <div class="img-block">1</div>
+            </li>
+            <li>
+                <div class="img-block">2</div>
+            </li>
+            <li>
+                <div class="img-block">3</div>
+            </li>
+            <li>
+                <div class="img-block">4</div>
+            </li>
+            <li>
+                <div class="img-block">5</div>
+            </li>
+            <li>
+                <div class="img-block">6</div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
